@@ -37,7 +37,7 @@ dependencies:
     - npm install
 
     # Cache the build and dependencies
-    - .scripts/cache-build-and-dependencies.js:
+    - npm run cache:
         environment:
           MONGO_URL: "mongodb://localhost:27017/cache"
 

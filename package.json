@@ -3,6 +3,7 @@
   "scripts": {
     "install": "cd .scripts && npm install && cd ../src && npm install",
     "start": ".scripts/start.js",
+    "cache": ".scripts/cache-build-and-dependencies.js",
     "karma": "./node_modules/.bin/karma start",
     "test": ".scripts/test.js",
     "ci": "npm install && CI=1 npm test"
